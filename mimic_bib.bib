@@ -1,0 +1,67 @@
+%% This BibTeX bibliography file was created using BibDesk.
+%% http://bibdesk.sourceforge.net/
+
+%% Created for Vitaly Lorman at 2021-07-01 16:47:22 -0400 
+
+
+%% Saved with string encoding Unicode (UTF-8) 
+
+
+
+@article{MIMIC,
+	Abstract = {MIMIC-III (`Medical Information Mart for Intensive Care') is a large, single-center database comprising information relating to patients admitted to critical care units at a large tertiary care hospital. Data includes vital signs, medications, laboratory measurements, observations and notes charted by care providers, fluid balance, procedure codes, diagnostic codes, imaging reports, hospital length of stay, survival data, and more. The database supports applications including academic and industrial research, quality improvement initiatives, and higher education coursework.},
+	Author = {Johnson, Alistair E. W. and Pollard, Tom J. and Shen, Lu and Lehman, Li-wei H. and Feng, Mengling and Ghassemi, Mohammad and Moody, Benjamin and Szolovits, Peter and Anthony Celi, Leo and Mark, Roger G.},
+	Da = {2016/05/24},
+	Date-Added = {2021-07-01 20:44:04 +0000},
+	Date-Modified = {2021-07-01 20:45:59 +0000},
+	Doi = {10.1038/sdata.2016.35},
+	Id = {Johnson2016},
+	Isbn = {2052-4463},
+	Journal = {Scientific Data},
+	Number = {1},
+	Pages = {160035},
+	Title = {MIMIC-III, a freely accessible critical care database},
+	Ty = {JOUR},
+	Url = {https://doi.org/10.1038/sdata.2016.35},
+	Volume = {3},
+	Year = {2016},
+	Bdsk-Url-1 = {https://doi.org/10.1038/sdata.2016.35}}
+
+@article{GRUD,
+	Abstract = {Multivariate time series data in practical applications, such as health care, geoscience, and biology, are characterized by a variety of missing values. In time series prediction and other related tasks, it has been noted that missing values and their missing patterns are often correlated with the target labels, a.k.a., informative missingness. There is very limited work on exploiting the missing patterns for effective imputation and improving prediction performance. In this paper, we develop novel deep learning models, namely GRU-D, as one of the early attempts. GRU-D is based on Gated Recurrent Unit (GRU), a state-of-the-art recurrent neural network. It takes two representations of missing patterns, i.e., masking and time interval, and effectively incorporates them into a deep model architecture so that it not only captures the long-term temporal dependencies in time series, but also utilizes the missing patterns to achieve better prediction results. Experiments of time series classification tasks on real-world clinical datasets (MIMIC-III, PhysioNet) and synthetic datasets demonstrate that our models achieve state-of-the-art performance and provide useful insights for better understanding and utilization of missing values in time series analysis.},
+	Author = {Che, Zhengping and Purushotham, Sanjay and Cho, Kyunghyun and Sontag, David and Liu, Yan},
+	Da = {2018/04/17},
+	Date-Added = {2021-07-01 20:42:28 +0000},
+	Date-Modified = {2021-07-01 20:46:23 +0000},
+	Doi = {10.1038/s41598-018-24271-9},
+	Id = {Che2018},
+	Isbn = {2045-2322},
+	Journal = {Scientific Reports},
+	Number = {1},
+	Pages = {6085},
+	Title = {Recurrent Neural Networks for Multivariate Time Series with Missing Values},
+	Ty = {JOUR},
+	Url = {https://doi.org/10.1038/s41598-018-24271-9},
+	Volume = {8},
+	Year = {2018},
+	Bdsk-Url-1 = {https://doi.org/10.1038/s41598-018-24271-9}}
+
+@inproceedings{Extract,
+	Abstract = {Machine learning for healthcare researchers face challenges to progress and reproducibility due to a lack of standardized processing frameworks for public datasets. We present MIMIC-Extract, an open source pipeline for transforming the raw electronic health record (EHR) data of critical care patients from the publicly-available MIMIC-III database into data structures that are directly usable in common time-series prediction pipelines. MIMIC-Extract addresses three challenges in making complex EHR data accessible to the broader machine learning community. First, MIMIC-Extract transforms raw vital sign and laboratory measurements into usable hourly time series, performing essential steps such as unit conversion, outlier handling, and aggregation of semantically similar features to reduce missingness and improve robustness. Second, MIMIC-Extract extracts and makes prediction of clinically-relevant targets possible, including outcomes such as mortality and length-of-stay as well as comprehensive hourly intervention signals for ventilators, vasopressors, and fluid therapies. Finally, the pipeline emphasizes reproducibility and extensibility to future research questions. We demonstrate the pipeline's effectiveness by developing several benchmark tasks for outcome and intervention forecasting and assessing the performance of competitive models.},
+	Address = {New York, NY, USA},
+	Author = {Wang, Shirly and McDermott, Matthew B. A. and Chauhan, Geeticka and Ghassemi, Marzyeh and Hughes, Michael C. and Naumann, Tristan},
+	Booktitle = {Proceedings of the ACM Conference on Health, Inference, and Learning},
+	Date-Added = {2021-07-01 20:41:13 +0000},
+	Date-Modified = {2021-07-01 20:46:07 +0000},
+	Doi = {10.1145/3368555.3384469},
+	Isbn = {9781450370462},
+	Keywords = {Machine learning, MIMIC-III, Healthcare, Time series data, Reproducibility},
+	Location = {Toronto, Ontario, Canada},
+	Numpages = {14},
+	Pages = {222--235},
+	Publisher = {Association for Computing Machinery},
+	Series = {CHIL '20},
+	Title = {MIMIC-Extract: A Data Extraction, Preprocessing, and Representation Pipeline for MIMIC-III},
+	Url = {https://doi.org/10.1145/3368555.3384469},
+	Year = {2020},
+	Bdsk-Url-1 = {https://doi.org/10.1145/3368555.3384469}}
